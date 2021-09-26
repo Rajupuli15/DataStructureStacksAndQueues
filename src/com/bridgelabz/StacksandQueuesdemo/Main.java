@@ -17,8 +17,19 @@ public class Main <T> {
         StacksandQueuesdemo.display();
 
 
+            System.out.println("top value"+StacksandQueuesdemo.peek());
+
+        StacksandQueuesdemo.pop();
+        StacksandQueuesdemo.pop();
+        StacksandQueuesdemo.display();
+
+
     }
-}
+    }
+
+
+
+
 
 
 

@@ -32,6 +32,26 @@ public class DataStructureStack<T> {
 
     }
 
+    //pop method to pop the stack value
+    public void pop(){
+        if(topper == null){
+            System.out.println("stack underflow");
+        }
+        else
+            topper = (topper).link;
+    }
+    //peek method give topper value
+
+    public T peek(){
+        if(topper != null){
+            return topper.data;
+        }
+        else{
+            System.out.println("stack underflow");
+            return null;
+        }
+    }
+
     //display method to give the stack data
     public void display() {
         Node temp = null;
