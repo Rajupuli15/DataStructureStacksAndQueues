@@ -14,6 +14,10 @@ public class QueueMain <T> {
         queueMainLinked.display();
         System.out.println("queue front" + queueMainLinked.front.key);
 
+        QueueMainLinked.dqueue();
+        QueueMainLinked.dqueue();
+        System.out.println("queue front"+ queueMainLinked.front.key);
+
     }
 }
 
