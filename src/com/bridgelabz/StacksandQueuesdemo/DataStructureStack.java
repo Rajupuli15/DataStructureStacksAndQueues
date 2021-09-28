@@ -2,7 +2,6 @@ package com.bridgelabz.StacksandQueuesdemo;
 
 public class DataStructureStack<T> {
 
-
     //creating linked list node
 
     private class Node {

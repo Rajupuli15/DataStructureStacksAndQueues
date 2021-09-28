@@ -1,6 +1,6 @@
 package com.bridgelabz.QueueApi;
 
-public class QueueMain <T> {
+public class QueueMain  {
     public static void main(String args[]) {
         // stack implement use linkedlist
 
@@ -14,11 +14,10 @@ public class QueueMain <T> {
         queueMainLinked.display();
         System.out.println("queue front" + queueMainLinked.front.key);
 
+
         QueueMainLinked.dqueue();
         QueueMainLinked.dqueue();
         System.out.println("queue front"+ queueMainLinked.front.key);
 
     }
 }
-
-

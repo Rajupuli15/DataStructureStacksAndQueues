@@ -1,7 +1,6 @@
 package com.bridgelabz.QueueApi;
 
 // linked list node to store the queue entry
-
 class QueueLinkedList{
     int key;
     QueueLinkedList next;
@@ -31,7 +30,6 @@ class QueueMainLinked {
         this.rear = temp;
     }
     // dqueue method to remove front data
-
     public void dqueue() {
         if (this.front == null) {
             System.out.println("queue does not have the value");
